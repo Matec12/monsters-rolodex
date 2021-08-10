@@ -27,9 +27,12 @@ class App extends Component{
 
   render(){    
     const {monsters, searchField } = this.state;
-    const filteredMonstersByName = monsters.filter(monster => (){
+    const filteredMonstersByName = monsters.filter(monster => 
       monster.name.toLowerCase().includes(searchField.toLowerCase())
     );
+    // const filteredMonstersByEmail = monsters.filter(monster =>
+    //   monster.email.toLowerCase().includes(searchField.toLowerCase())
+    // );
     return (
       <div className="App">
         <h1>Monsters Rolodex</h1>
