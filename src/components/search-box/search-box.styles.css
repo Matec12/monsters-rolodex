@@ -8,3 +8,17 @@
   line-height: 30px;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .search{
+    width: 70%;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .search{
+    width: 70%;
+    line-height: 20px;
+  }
+}

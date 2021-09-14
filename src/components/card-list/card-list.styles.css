@@ -6,3 +6,21 @@
   grid-gap: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .card-list{
+   display: block;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .card-list{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card-list{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
